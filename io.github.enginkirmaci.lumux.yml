@@ -44,5 +44,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/enginkirmaci/lumux.git
-        tag: v0.2.0
-        commit: f6c40d8043213de8185a2d391dcb673c94d3145a
+        tag: v0.3.0
+        commit: 62d86350f7884eb319a855af01649b7aeafa2525
