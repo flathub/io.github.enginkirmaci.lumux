@@ -17,7 +17,7 @@ finish-args:
   # Screen capture via portals / PipeWire
   - --filesystem=xdg-run/pipewire-0:ro
 
-  # System tray support via StatusNotifierItem (D - Bus)
+  # System tray support via StatusNotifierItem (D-Bus)
   - --talk-name=org.kde.StatusNotifierWatcher
   - --talk-name=org.freedesktop.StatusNotifierWatcher
   - --talk-name=org.freedesktop.Notifications
@@ -44,5 +44,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/enginkirmaci/lumux.git
-        tag: v0.3.0
-        commit: 62d86350f7884eb319a855af01649b7aeafa2525
+        tag: v0.4.2
+        commit: 3c73c0def55876e4012fe6f397d44931e05ee47d
