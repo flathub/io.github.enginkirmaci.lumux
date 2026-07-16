@@ -1,5 +1,6 @@
 # Use the following command to regenerate Python modules
-# flatpak-pip-generator --runtime=org.gnome.Sdk//50 -r requirements.txt -o python3-modules
+# flatpak-pip-generator --runtime=org.gnome.Sdk//50 -r requirements.txt -o python3-modules --prefer-wheels=zeroconf,numpy
+pybind11
 zeroconf>=0.60.0
 urllib3>=1.26.0
 numpy>=1.24.0
