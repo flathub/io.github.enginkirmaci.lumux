@@ -1,0 +1,6 @@
+# Use the following command to regenerate Python modules
+# flatpak-pip-generator --runtime=org.gnome.Sdk//50 -r requirements-dev.txt -o python3-dev-modules --cleanup=all
+pybind11
+meson-python
+poetry-core
+PyGObject>=3.42.0
